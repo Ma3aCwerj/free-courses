@@ -1,3 +1,4 @@
-# Task 1
-
-# Put your code here
+def delFilter(s)
+    return s.delete "РКНркн"
+end
+puts delFilter(ARGV[0])
